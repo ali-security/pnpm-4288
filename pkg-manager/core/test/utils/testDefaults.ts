@@ -36,6 +36,7 @@ export function testDefaults<T> (
   const result = {
     cacheDir,
     neverBuiltDependencies: [] as string[],
+    blockExoticSubdeps: false,
     registries: {
       default: registry,
     },
